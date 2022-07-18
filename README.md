@@ -1,2 +1,3 @@
 # git-test
-feature testing repo
+My first GitHub repository!
+Hello Odin!
