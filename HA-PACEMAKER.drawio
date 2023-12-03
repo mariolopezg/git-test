@@ -1,9 +1,193 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T23:15:11.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" version="22.1.5" etag="avIKNXZIHGVTeajc6aID" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-03T23:36:05.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" etag="mxWuf8T3Oj_FVGDC4gW1" version="22.1.5" type="github">
   <diagram name="Page-1" id="j9gYifb2dknYmhebRNGi">
-    <mxGraphModel>
+    <mxGraphModel dx="1864" dy="1267" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="reVIk_PqN9V_czvuLYGr-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="reVIk_PqN9V_czvuLYGr-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="142.5" y="56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="116" y="-84" width="53" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-3" value="" style="swimlane;startSize=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="68" y="139" width="149.5" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-4" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.proxy_server;fontSize=16;" vertex="1" parent="reVIk_PqN9V_czvuLYGr-3">
+          <mxGeometry x="41" y="30" width="76" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-6" value="HA PROXY" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="reVIk_PqN9V_czvuLYGr-3">
+          <mxGeometry x="30.5" y="11" width="97" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-14" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Storage_sync_service.svg;" vertex="1" parent="reVIk_PqN9V_czvuLYGr-3">
+          <mxGeometry x="9" y="146" width="67" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-15" value="Pacemaker con Corosync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="reVIk_PqN9V_czvuLYGr-3">
+          <mxGeometry x="78" y="168" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="reVIk_PqN9V_czvuLYGr-3" source="reVIk_PqN9V_czvuLYGr-15" target="reVIk_PqN9V_czvuLYGr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.linuxpcfix.com/wp-content/uploads/2015/06/ha_cluster.png;" vertex="1" parent="1">
+          <mxGeometry x="231.74" y="-111" width="148.01" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-8" value="IP Virtual (VIP)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1" y="28" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-9" value="Solicitud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="116" y="-3" width="60" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-12" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-27" y="57" as="sourcePoint" />
+            <mxPoint x="308" y="57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="reVIk_PqN9V_czvuLYGr-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="142" y="57" as="sourcePoint" />
+            <mxPoint x="85" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-24" value="" style="swimlane;startSize=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="232" y="139" width="149.5" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-25" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.proxy_server;fontSize=16;" vertex="1" parent="reVIk_PqN9V_czvuLYGr-24">
+          <mxGeometry x="41" y="30" width="76" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-26" value="HA PROXY" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="reVIk_PqN9V_czvuLYGr-24">
+          <mxGeometry x="30.5" y="11" width="97" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-27" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Storage_sync_service.svg;" vertex="1" parent="reVIk_PqN9V_czvuLYGr-24">
+          <mxGeometry x="9" y="146" width="67" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-28" value="Pacemaker con Corosync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="reVIk_PqN9V_czvuLYGr-24">
+          <mxGeometry x="78" y="168" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="reVIk_PqN9V_czvuLYGr-24" source="reVIk_PqN9V_czvuLYGr-28" target="reVIk_PqN9V_czvuLYGr-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-30" value="" style="swimlane;startSize=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-102" y="139" width="149.5" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-31" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.proxy_server;fontSize=16;" vertex="1" parent="reVIk_PqN9V_czvuLYGr-30">
+          <mxGeometry x="41" y="30" width="76" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-32" value="HA PROXY" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="reVIk_PqN9V_czvuLYGr-30">
+          <mxGeometry x="30.5" y="11" width="97" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-33" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Storage_sync_service.svg;" vertex="1" parent="reVIk_PqN9V_czvuLYGr-30">
+          <mxGeometry x="9" y="146" width="67" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-34" value="Pacemaker con Corosync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="reVIk_PqN9V_czvuLYGr-30">
+          <mxGeometry x="78" y="168" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-35" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="reVIk_PqN9V_czvuLYGr-30" source="reVIk_PqN9V_czvuLYGr-34" target="reVIk_PqN9V_czvuLYGr-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-36" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="reVIk_PqN9V_czvuLYGr-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-27" y="57" as="sourcePoint" />
+            <mxPoint x="-78" y="71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-37" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="reVIk_PqN9V_czvuLYGr-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="307" y="57" as="sourcePoint" />
+            <mxPoint x="302" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-38" value="ACTIVO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="306" y="72" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-45" value="PASIVO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="142" y="77" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-46" value="PASIVO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-28" y="77" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-47" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-52.25" y="370" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-48" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-44.25" y="407" width="34" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-49" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="117.75" y="370" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-50" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="125.75" y="407" width="34" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-51" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="281.75" y="370" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-52" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="289.75" y="407" width="34" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-57" value="" style="shape=card;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="65" y="474" width="158" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-58" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="98" y="478" width="73" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-59" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/infrastructure/mobile_backend.svg;" vertex="1" parent="1">
+          <mxGeometry x="148" y="474" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-60" value="API/Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="116.75" y="548" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-61" value="" style="shape=card;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-109.25" y="474" width="158" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-62" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-76.25" y="478" width="73" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-63" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/infrastructure/mobile_backend.svg;" vertex="1" parent="1">
+          <mxGeometry x="-26.25" y="474" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-64" value="API/Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-57.5" y="548" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-65" value="" style="shape=card;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="236.25" y="474" width="158" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-66" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="269.25" y="478" width="73" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-67" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/infrastructure/mobile_backend.svg;" vertex="1" parent="1">
+          <mxGeometry x="319.25" y="474" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-68" value="API/Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="288" y="548" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-69" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.01;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="reVIk_PqN9V_czvuLYGr-51" target="reVIk_PqN9V_czvuLYGr-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="123" y="219" as="sourcePoint" />
+            <mxPoint x="173" y="169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-70" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="reVIk_PqN9V_czvuLYGr-52" target="reVIk_PqN9V_czvuLYGr-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-71" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="reVIk_PqN9V_czvuLYGr-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309" y="424" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-72" value="&lt;h1&gt;Alta Disponibilidad de nodos&lt;/h1&gt;&lt;div&gt;Utilizando Pacemaker, Corosync y &amp;nbsp;HAProxy&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="-73" width="265" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-76" value="" style="shape=mxgraph.cisco.people.androgenous_person;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-242" y="428" width="69" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-77" value="Mario López" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-244" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reVIk_PqN9V_czvuLYGr-78" value="Hecho por:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-255" y="388" width="87" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
